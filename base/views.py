@@ -9,12 +9,6 @@ from django.urls import reverse_lazy
 from .models import Task
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import login 
-
-# nauman 1234
-# user Username12@
-#saniya Saniyakhan12@
-
-# Create your views here.
  
 
 class CustomLoginView(LoginView):
